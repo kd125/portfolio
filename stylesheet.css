@@ -1,0 +1,18 @@
+body{
+  background-image: url(https://images.unsplash.com/photo-1610296669228-602fa827fc1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navList{
+  list-style: none;
+  display: inline-flex;
+}
+
+.intro{
+  background: white;
+  height: auto;
+  width: 80%;
+  display: flex;
+  margin: auto;
+}
