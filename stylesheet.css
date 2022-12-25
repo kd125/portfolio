@@ -7,6 +7,7 @@ body{
 .navItem{
   display: inline-flex;
   justify-content: space-evenly;
+  align-items: center;
   border: 2px solid rgb(158, 158, 158);
   background-color: rgb(255, 255, 255, 0.2);
   padding: 5px;
@@ -56,6 +57,7 @@ body{
   display: block;
   justify-content: center;
   margin: auto;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .headshot{
@@ -147,6 +149,7 @@ body{
   .navItem{
     display: inline-flex;
     justify-content: space-evenly;
+    align-items: center;
     border: 2px solid rgb(158, 158, 158);
     background-color: rgb(255, 255, 255, 0.2);
     min-width: 50px;
@@ -189,6 +192,7 @@ body{
     display: block;
     justify-content: center;
     margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .headshot{
@@ -272,18 +276,20 @@ body{
   
   .navItem{
     display: inline-flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     border: 2px solid rgb(158, 158, 158);
     background-color: rgb(255, 255, 255, 0.2);
     width: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  
+
   .navigation {
     position: sticky;
     display:flex;
     overflow:hidden;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100px;
     margin: auto;
     max-width: 100%;
@@ -302,18 +308,28 @@ body{
   
   .intro{
     background: rgb(255, 255, 255, 0.5);
-    height: auto;
+    height: 100%;
     max-width: 80%;
-    display: flex;
+    display: grid;
     justify-content: center;
     text-align: center;
     margin: auto;
+    margin-bottom: 0px;
   }
   
   .introText{
     display: block;
     justify-content: center;
-    margin: auto;
+    height: auto;
+    margin: 2px;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .lorem{
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden;
   }
   
   .headshot{
@@ -321,8 +337,9 @@ body{
     width: 170px;
     filter: grayscale(100%);
     margin: 10px;
+
   }
-  
+
   
   /* Portfolio page */
   
@@ -331,7 +348,7 @@ body{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: rgb(255, 255, 255);
-    max-width: 20%;
+    max-width: 40%;
     display: flex;
     justify-content: center;
     margin: auto;
@@ -339,10 +356,10 @@ body{
   }
   
   .photogallery{
-    display: block;
+    display: inline-block;
     gap: 10px;
     max-width: 80%;
-    margin: auto;
+    margin: auto; 
     padding: 50px;
     background-color: rgb(255, 255, 255, 0.5);
   }
@@ -358,7 +375,7 @@ body{
   .contactPage{
     background: rgb(255, 255, 255, 0.5);
     height: auto;
-    max-width: 50%;
+    max-width: 80%;
     display: block;
     padding: 25px;
     justify-content: center;
@@ -368,20 +385,20 @@ body{
   
   .entertext, .entercomments{
     margin: 10px;
-    width: 60%;
+    width: 80%;
     text-align: center;
-    height: 40px;
+    height: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .entercomments{
-    height: 120px;
+    height: 100px;
   }
   
   .sendbutton{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 40px;
-    width: 80px;
+    height: 25px;
+    width: 60px;
     font-size: 15px;
   }
 }
